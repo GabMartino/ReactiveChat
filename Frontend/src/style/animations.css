@@ -1,0 +1,30 @@
+
+@-webkit-keyframes blink {
+  from { background-color: green; }
+  to { background-color: rgba(0,0,0,0.3); }
+ }
+@-moz-keyframes blink {
+  from { background-color: green; }
+  to { background-color: rgba(0,0,0,0.3); }
+}
+@-ms-keyframes blink {
+  from { background-color: green; }
+  to { background-color: rgba(0,0,0,0.3); }
+}
+@-o-keyframes blink {
+  from { background-color: green; }
+  to { background-color: rgba(0,0,0,0.3); }
+}
+@keyframes blink {
+  from { background-color: green; }
+  to { background-color: rgba(0,0,0,0.3); }
+}
+
+.blink {
+   background-color: green;
+   -webkit-animation: blink 2s 3 alternate;
+   -moz-animation: blink 2s 3 alternate;  
+   -ms-animation: blink 2s 3 alternate;  
+   -o-animation: blink 2s 3 alternate;  
+   animation: blink 2s 3 alternate;   
+}

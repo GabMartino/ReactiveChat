@@ -1,0 +1,83 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    
+  }
+  
+  .modal-main {
+    position:fixed;
+    border-radius: 15px !important;
+    background-color: rgba(0, 0, 0, 0.59) !important;
+    width: 35%;
+    height: 30%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    align-items: center;
+    align-content: center;
+  }
+  .modal_margin{
+    margin:auto;
+  }
+  .display-block {
+    display: flex;
+  }
+  
+  .display-none {
+    display: none;
+  }
+.modal_input{
+  width: 70%;
+  margin:auto;
+}
+.modal_button{
+  width: 50%;
+  height: 20%;
+  margin:auto;
+  margin-top: 5%;
+  text-align: center;
+  align-content: center ;
+  align-items: center;
+  background-color: #550b92 !important;
+  padding: 0%;
+}
+.modal_button p {
+  margin: auto;
+}
+.modal p{
+  color: aliceblue;
+}
+.modalBackgroud{
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  height: 100%;
+}
+
+.empty_div{
+  height: 100%;
+  width: 18%;
+}
+.close_icon{
+  height: 100%;
+  width: 18%;
+}
+
+.close_img{
+  padding-right: 0%;
+  width: 23%;
+  margin-right: 10%;
+  margin-top: 5%;
+  cursor: pointer;
+}
+.close_img_div{
+  margin-right: 0%;
+  padding-right: 0%;
+  width: 100%;
+  align-items: right;
+  align-content: right;
+  flex-direction: row-reverse;
+}

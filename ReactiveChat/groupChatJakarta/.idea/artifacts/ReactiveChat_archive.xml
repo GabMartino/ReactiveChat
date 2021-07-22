@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ReactiveChat archive">
+    <output-path>$PROJECT_DIR$/out/artifacts/ReactiveChat_archive</output-path>
+    <root id="archive" name="ReactiveChat archive.war">
+      <element id="artifact" artifact-name="ReactiveChat" />
+    </root>
+  </artifact>
+</component>
